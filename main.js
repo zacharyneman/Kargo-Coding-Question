@@ -13,5 +13,3 @@ function numToPhonetic(){
     result = result.slice(0,-1) + '\n'
     process.stdout.write(result)
 }
-
-numToPhonetic([30, 300, 5])
